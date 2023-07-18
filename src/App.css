@@ -1,0 +1,51 @@
+/*? Global Stlye for App */
+body{
+  background-image: url(https://img.freepik.com/premium-photo/bay-leaf-black-pepper-black-background-condiments-flat-view-space-text_350891-622.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.res-img {
+  transition: transform 0.5s;
+  border-radius: 1rem;
+  max-height: 130px;
+  width: 200px;
+}
+.res-img:hover {
+  transform: scale(1.05);
+  border: 2px solid rgb(58, 206, 13);
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all .8s ease-in-out;
+}
+
+.appointments {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 275px;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: start;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  position: relative;
+  box-shadow: 0px 3px 3px rgba(0 0, 0, 0.3);
+}
+
+.consulted {
+  border-left: 1rem solid rgb(136, 230, 21);
+}
+.consulted::after {
+  content: "CONSULTED";
+  background-color: rgb(148, 206, 13);
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0.5rem;
+  transform: translate(-50%, -50%);
+}
