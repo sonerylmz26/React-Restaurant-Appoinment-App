@@ -53,7 +53,7 @@ Build a React Restaurant Appoinment App using ReactJS.
 
 ## ReactRestauranAppoinmentApp Demo
 
-[ReactRestauranAppoinmentApp](https://react-restaurant-appoinment-app.vercel.app/)
+[ReactRestauranAppoinmentApp-Live](https://react-restaurant-appoinment-app.vercel.app/)
 
 ## ReactRestauranAppoinmentApp Projects
 
